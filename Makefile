@@ -1,7 +1,7 @@
 IMAGE_NAME = sabnzbd
 DOCKER_HOST ?= ""
 DOCKER_USER ?= roaanv/
-VERSION_TAG ?= 3.0.2
+VERSION_TAG ?= linuxserver
 FULL_IMAGE_NAME = $(DOCKER_HOST)$(DOCKER_USER)$(IMAGE_NAME)
 
 all: image
